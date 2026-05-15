@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F5E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💡 Tips for Better Water Harvesting"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Formula Box -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg_blue"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📐 The Water Wealth Formula"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#0D47A1"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liters = Roof Area (sq.ft)\n× Rainfall (mm)\n× 0.0929\n× Runoff Coefficient"
+                android:textSize="14sp"
+                android:textColor="#1565C0"
+                android:fontFamily="monospace"
+                android:lineSpacingMultiplier="1.5"/>
+        </LinearLayout>
+
+        <!-- Tips -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="1. 🧹 Clean your roof before monsoon season — dirt reduces efficiency."
+            android:textSize="14sp" android:textColor="#1a1a1a" android:lineSpacingMultiplier="1.5"
+            android:background="@drawable/card_bg" android:padding="14dp" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="2. 🚿 Install a first-flush diverter — discard first 20L which carries dust and pollutants."
+            android:textSize="14sp" android:textColor="#1a1a1a" android:lineSpacingMultiplier="1.5"
+            android:background="@drawable/card_bg" android:padding="14dp" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="3. 🕸️ Use fine mesh filters on tank inlets to prevent insects and debris."
+            android:textSize="14sp" android:textColor="#1a1a1a" android:lineSpacingMultiplier="1.5"
+            android:background="@drawable/card_bg" android:padding="14dp" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="4. 🎨 Light-colored roofs collect cleaner water and stay cooler."
+            android:textSize="14sp" android:textColor="#1a1a1a" android:lineSpacingMultiplier="1.5"
+            android:background="@drawable/card_bg" android:padding="14dp" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="5. 🔧 Check gutters every 3 months — cracks can lose 30% of collection."
+            android:textSize="14sp" android:textColor="#1a1a1a" android:lineSpacingMultiplier="1.5"
+            android:background="@drawable/card_bg" android:padding="14dp" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="6. 🌊 Overflow pipes can recharge borewells and raise local water table."
+            android:textSize="14sp" android:textColor="#1a1a1a" android:lineSpacingMultiplier="1.5"
+            android:background="@drawable/card_bg" android:padding="14dp" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="7. 📏 Ideal tank = 20 days of usage. Family of 4 needs at least 10,800 Liters storage."
+            android:textSize="14sp" android:textColor="#1a1a1a" android:lineSpacingMultiplier="1.5"
+            android:background="@drawable/card_bg" android:padding="14dp" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="8. 🏛️ Concrete roof = 0.85 runoff. Metal sheet = 0.60. Green roof = 0.40."
+            android:textSize="14sp" android:textColor="#1a1a1a" android:lineSpacingMultiplier="1.5"
+            android:background="@drawable/card_bg" android:padding="14dp" android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

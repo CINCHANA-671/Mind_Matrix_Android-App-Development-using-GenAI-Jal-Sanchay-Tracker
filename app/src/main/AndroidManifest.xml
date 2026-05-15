@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Jal-Sanchay"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JalSanchay">
+
+        <!-- Setup screen opens FIRST when app launches -->
+        <activity
+            android:name=".ui.SetupActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Main dashboard screen -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false"/>
+
+        <!-- Monthly report screen -->
+        <activity
+            android:name=".ui.ReportActivity"
+            android:exported="false"/>
+
+        <!-- Tips screen -->
+        <activity
+            android:name=".ui.TipsActivity"
+            android:exported="false"/>
+
+    </application>
+
+</manifest>
